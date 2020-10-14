@@ -1,6 +1,7 @@
 <template>
+    
+    <div class="inline">
     <div class="ola diletta">HOLA DILETTA</div>
-    <div class="inline" v-if="user">
         <a href="#" class="user-pop" v-on:mouseover="hover" v-on:mouseout="hoverOut">
         {{ main }}
         </a>
